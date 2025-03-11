@@ -1,0 +1,25 @@
+date,team,opponent,points_scored,points_allowed,win_loss
+2025-03-10,Oklahoma City Thunder,Denver Nuggets,127.0,140.0,Loss
+2025-03-10,Denver Nuggets,Oklahoma City Thunder,140.0,127.0,Win
+2025-03-10,San Antonio Spurs,Dallas Mavericks,129.0,133.0,Loss
+2025-03-10,Dallas Mavericks,San Antonio Spurs,133.0,129.0,Win
+2025-03-10,Atlanta Hawks,Philadelphia 76ers,132.0,123.0,Win
+2025-03-10,Philadelphia 76ers,Atlanta Hawks,123.0,132.0,Loss
+2025-03-10,Toronto Raptors,Washington Wizards,119.0,104.0,Win
+2025-03-10,Washington Wizards,Toronto Raptors,104.0,119.0,Loss
+2025-03-10,Boston Celtics,Utah Jazz,114.0,108.0,Win
+2025-03-10,Utah Jazz,Boston Celtics,108.0,114.0,Loss
+2025-03-10,Brooklyn Nets,Los Angeles Lakers,111.0,108.0,Win
+2025-03-10,Los Angeles Lakers,Brooklyn Nets,108.0,111.0,Loss
+2025-03-10,Miami Heat,Charlotte Hornets,102.0,105.0,Loss
+2025-03-10,Charlotte Hornets,Miami Heat,105.0,102.0,Win
+2025-03-10,Chicago Bulls,Indiana Pacers,121.0,103.0,Win
+2025-03-10,Indiana Pacers,Chicago Bulls,103.0,121.0,Loss
+2025-03-10,Houston Rockets,Orlando Magic,97.0,84.0,Win
+2025-03-10,Orlando Magic,Houston Rockets,84.0,97.0,Loss
+2025-03-10,Memphis Grizzlies,Phoenix Suns,120.0,118.0,Win
+2025-03-10,Phoenix Suns,Memphis Grizzlies,118.0,120.0,Loss
+2025-03-10,Golden State Warriors,Portland Trail Blazers,68.0,49.0,Win
+2025-03-10,Portland Trail Blazers,Golden State Warriors,49.0,68.0,Loss
+2025-03-10,Sacramento Kings,New York Knicks,24.0,41.0,Loss
+2025-03-10,New York Knicks,Sacramento Kings,41.0,24.0,Win

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NBA Predictions</title>
+    <style>
+        body { font-family: Arial, sans-serif; text-align: center; }
+        table { width: 80%; margin: 20px auto; border-collapse: collapse; }
+        th, td { border: 1px solid black; padding: 10px; text-align: center; }
+        th { background-color: #333; color: white; }
+        .description { width: 80%; margin: 20px auto; font-size: 14px; }
+    </style>
+</head>
+<body>
+    <h1>NBA Predictions for Today</h1>
+    <table>
+        <tr>
+            <th>Home Team</th>
+            <th>Visitor Team</th>
+            <th>Home Win %</th>
+            <th>Visitor Win %</th>
+            <th>Favored Team</th>
+        </tr>
+        {% for game in predictions %}
+        <tr>
+            <td>{{ game["Home Team"] }}</td>
+            <td>{{ game["Visitor Team"] }}</td>
+            <td>{{ game["Home Win %"] }}</td>
+            <td>{{ game["Visitor Win %"] }}</td>
+            <td>{{ game["Favored Team"] }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+
+    <div class="description">
+        <h2>How Predictions Are Calculated</h2>
+        <p>Predictions are based on the team's performance over their last 5 games, their historical win/loss record against the opponent, and an adjusted probability factor.</p>
+        <p>We take the **win percentage from the last 5 games**, adjust it by the **opponent's last 5 games performance**, and include the **head-to-head history** between the two teams to determine the final probability.</p>
+    </div>
+</body>
+</html>
